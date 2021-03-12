@@ -1,0 +1,56 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.timer {
+    width: 100%;
+    height: 100vh;
+    background: #242837;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.timer__display {
+    font-size: 60px;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.timer__start,
+.timer__end,
+.timer__pause {
+    border: none;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    color: white;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.timer__start {
+    background: #29a729;
+}
+
+.timer__start:hover {
+    background: #1c721c;
+}
+
+.timer__pause {
+    background: #db8f00;
+}
+
+.timer__pause:hover {
+    background: #8a5d01;
+}
+
+.timer__end {
+    background: red;
+}
+
+.timer__end:hover {
+    background: #910000;
+}
